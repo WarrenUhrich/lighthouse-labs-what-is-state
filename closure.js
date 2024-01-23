@@ -1,9 +1,8 @@
 function outerFunction() {
 
-    
+    let count = 0;
 
     function innerFunction() {
-        let count = 0;
         count++;
         console.log('Count:', count);
     }
