@@ -707,6 +707,8 @@ export default ChangeTitle;
 
 Running our application again, we can finally see both our `<h1></h1>` heading and our `<ChangeTitle />` component in-sync. Keep this technique and idea of "**lifting state**" in-mind as you continue to build components that rely on state. Should more than one component need the same information, you'll want to identify the nearest common parent in their shared heirarchy. That parent should be responsible for the *state*, meaning it should be the component that you write your `useState` code in. *Props* can always be passed down to children (but not back upward!)
 
+![Image about lifting useState up a tree of React components.](https://github.com/WarrenUhrich/lighthouse-labs-what-is-state/blob/2024.01.23-web-flex-day-18september2023/2024.01.23-web-flex-day-18sept2023-lifting-react-state.png?raw=true)
+
 ## Resources
 
 For further exploration of the topics we've discussed today, please explore the following resources:
